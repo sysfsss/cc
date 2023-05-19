@@ -18,6 +18,8 @@ This function allows you to analyze your bash command history to provide insight
 
     `420 dstat -plsgrindmycat`
 
+## Usage
+
 The cc command also offers a few options that control its output, providing you with various ways to view your command history:
 
 ```bash
@@ -64,22 +66,6 @@ $ cc
 ```
 
 ```
-$ cc -l
-      1 cat README.txt
-      1 cd /mnt
-      1 clear && doge --shibe doge-xmas.txt
-      1 curl https://checkip.amazonaws.com
-      2 git log
-      3 yay -Scc
-      6 iotop
-      7 cd ..
-     11 yay -Syyu
-     16 cd
-     18 ls -al
-     67 sudo -i
-```
-
-```
 $ cc -l 3
       1 cat * >
       1 cat .bash_profile
@@ -98,6 +84,23 @@ $ cc -l 3
       6 iotop
       7 cd ..
       9 echo
+     16 cd
+     18 ls -al
+     67 sudo -i
+```
+
+
+```
+$ cc -l
+      1 cat README.txt
+      1 cd /mnt
+      1 clear && doge --shibe doge-xmas.txt
+      1 curl https://checkip.amazonaws.com
+      2 git log
+      3 yay -Scc
+      6 iotop
+      7 cd ..
+     11 yay -Syyu
      16 cd
      18 ls -al
      67 sudo -i
