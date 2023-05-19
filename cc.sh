@@ -32,4 +32,5 @@ cc() {
     history | awk -v cmd_start="$command_start" '{print $cmd_start}' | sort | uniq -c | sort -n
   fi
 }
+
 export -f cc
