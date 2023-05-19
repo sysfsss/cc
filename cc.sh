@@ -5,7 +5,7 @@ cc() {
     echo "Version 1.0"
     echo
     echo "Usage:"
-    echo "cc                - Shows the frequency of each unique command (without arguments) from the command history."
+    echo "cc               - Shows the frequency of each unique command (without arguments) from the command history."
     echo "cc -l            - Shows the frequency of each unique command (with all arguments) from the command history."
     echo "cc -l <n>        - Shows the frequency of each unique command (with up to n arguments) from the command history."
     echo
@@ -33,4 +33,3 @@ cc() {
   fi
 }
 export -f cc
-
